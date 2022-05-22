@@ -9,6 +9,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { NewArticleComponent } from './new-article/new-article.component';
 import { EditArticleComponent } from './edit-article/edit-article.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ShopComponent } from './shop/shop.component';
+import { ProductInfoComponent } from './product-info/product-info.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +20,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ArticlesComponent,
     NewArticleComponent,
     EditArticleComponent,
+    DashboardComponent,
+    ShopComponent,
+    ProductInfoComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

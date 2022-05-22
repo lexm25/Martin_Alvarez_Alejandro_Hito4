@@ -24,9 +24,8 @@ export class NewArticleComponent implements OnInit {
     };
     this.ArticleService.addArticle(this.articles as any).subscribe(article=>{
       this.articles=article;
-      this.router.navigateByUrl('/');
+      this.router.navigateByUrl('/articles');
     });
-    this.router.navigateByUrl('/');
     console.log(this.articles);
   }
 

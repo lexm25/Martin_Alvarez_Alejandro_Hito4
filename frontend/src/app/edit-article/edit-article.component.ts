@@ -25,7 +25,7 @@ export class EditArticleComponent implements OnInit {
 
   update(articleTitle: string, articleBody: string, articleAuthor: string){
     this.articleService.update(this.articleId, this.article).subscribe((res)=>{
-      this.router.navigateByUrl('/');
+      this.router.navigateByUrl('/articles');
     });
   }
 
